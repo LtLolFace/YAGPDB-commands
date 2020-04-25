@@ -13,5 +13,5 @@ Rolecheck failed!
  
 {{deleteResponse 5}}
 {{deleteTrigger 5}}
-/* This is the amount of time the user command and response will stay up until being deleted in seconds. */
+/* This is the amount of time the user command and response will stay up in seconds. */
 /* You must allow the YAGPDB to delete and manage other users messages if you want it to clean up after itself. */
