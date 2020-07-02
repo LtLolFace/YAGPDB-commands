@@ -1,7 +1,7 @@
 {{$x := (userArg .User.ID).Mention}}
 {{if targetHasRoleID $x RoleNumID}}
 /* Determines users ID and uses it in this command */
-/* Find your RoleNumID by using command "listroles". */
+/* Find your RoleNumID by using command "listroles" */
 Rolecheck passed!
 /* Insert custom text here. */
 {{exec "role" "RoleName"}}
